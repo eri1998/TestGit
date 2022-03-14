@@ -26,7 +26,7 @@
       <configuration>
         <appName>${testdaniloo}</appName>
         <processTypes>
-          <web>java $JAVA_OPTS -cp target/classes:target/dependency/* JavaClass.TestHeroku.JavaClass.Main</web>
+          <web>java $JAVA_OPTS -cp target/classes:target/dependency/* JavaClass.Main</web>
         </processTypes>
       </configuration>
     </plugin>
